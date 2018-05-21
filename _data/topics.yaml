@@ -2075,11 +2075,11 @@
   image: teams.png
   description: The gallery section containing Teams API providers.
   paths: 62
-- label: BetterDoctors
-  slug: betterdoctors
-  url: http://betterdoctors.api.gallery.streamdata.io
-  image: betterdoctors.png
-  description: The gallery section containing BetterDoctors API providers.
+- label: Templates
+  slug: templates
+  url: http://templates.api.gallery.streamdata.io
+  image: templates.png
+  description: The gallery section containing Templates API providers.
   paths: 47
 - label: Tenants
   slug: tenants
