@@ -146,7 +146,7 @@ paths:
           box (top-right, bottom-left) (lat,lon,lat,lon)
       - in: query
         name: name
-        description: "The practice\u2019s name"
+        description: The practices name
       - in: query
         name: skip
         description: For paginated list operations; specifies the zero-based start

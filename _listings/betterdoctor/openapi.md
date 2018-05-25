@@ -4,7 +4,7 @@ x-collection-name: BetterDoctor
 x-complete: 1
 info:
   title: BetterDoctor
-  description: betterdoctor-helps-people-find-and-connect-to-the-best-doctors-through-our-consumer-app-doctor-marketing-services-and-api-our-mission-is-to-help-increase-transparency-in-healthcare-and-help-consumers-make-better-decisions
+  description: betterdoctor-helps-people-find-and-connect-to-the-best-doctors-through-our-consumer-app-doctor-marketing-services-and-api--our-mission-is-to-help-increase-transparency-in-healthcare-and-help-consumers-make-better-decisions-
   version: 1.0.0
 host: api.betterdoctor.com
 basePath: /2016-03-01
@@ -142,7 +142,7 @@ paths:
           box (top-right, bottom-left) (lat,lon,lat,lon)
       - in: query
         name: name
-        description: "The practice\u2019s name"
+        description: The practices name
       - in: query
         name: skip
         description: For paginated list operations; specifies the zero-based start
