@@ -142,7 +142,7 @@ paths:
           box (top-right, bottom-left) (lat,lon,lat,lon)
       - in: query
         name: name
-        description: The practices name
+        description: The practice???s name
       - in: query
         name: skip
         description: For paginated list operations; specifies the zero-based start

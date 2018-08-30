@@ -149,7 +149,7 @@ paths:
           box (top-right, bottom-left) (lat,lon,lat,lon)
       - in: query
         name: name
-        description: The practices name
+        description: The practice???s name
       - in: query
         name: skip
         description: For paginated list operations; specifies the zero-based start
@@ -358,14 +358,14 @@ paths:
   /validations:
     post:
       summary: Add a new record
-      description: "Creates validation document using the request body, and returns
+      description: 'Creates validation document using the request body, and returns
         the document created with unique identifier in Location header for reference.
         This is how validation data is submitted to BetterDoctor for addition to the
-        API. The posted document must conform to BetterDoctor\u2019s JSON schema for
+        API. The posted document must conform to BetterDoctor???s JSON schema for
         validation objects, see included model specification for more information.
-        <br><h4 style='margin-bottom: 0px !important;'> Return Headers </h4> <div>Location:
+        <br><h4 style=''margin-bottom: 0px !important;''> Return Headers </h4> <div>Location:
         The uid of the created document. This can be used to access the document again
-        without executing a search.</div>"
+        without executing a search.</div>'
       operationId: creates-validation-document-using-the-request-body-and-returns-the-document-created-with-unique-iden
       x-api-path-slug: validations-post
       parameters:
@@ -385,15 +385,15 @@ paths:
       - Validations
     get:
       summary: Record search
-      description: "The endpoint can be used to identify providers with validation
+      description: 'The endpoint can be used to identify providers with validation
         data. The search supports BetterDoctor unique provider identifier, National
         Provider Identifier (NPI) or reference uid based provider lookups. BetterDoctor
         identifiers and NPIs for doctors and practices can be discovered using BetterDoctor
-        API\u2019s search functionalities. <br><h4 style='margin-bottom: 0px !important;'>
+        API???s search functionalities. <br><h4 style=''margin-bottom: 0px !important;''>
         Return Headers </h4> <div>Last-Modified: Timestamp of the last validation
         made over the matching validations. The value can be used to query changes
         in the validation status for the provider using since parameter in collaboration
-        with HEAD method.</div>"
+        with HEAD method.</div>'
       operationId: the-endpoint-can-be-used-to-identify-providers-with-validation-data-the-search-supports-betterdoctor
       x-api-path-slug: validations-get
       parameters:

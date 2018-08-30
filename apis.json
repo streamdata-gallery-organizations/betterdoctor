@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - BetterDoctor",
+	"description": "This is a repository of betterdoctor APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/betterdoctor.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://betterdoctor.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "BetterDoctor",
+			"x-api-slug": "betterdoctor",
+			"description": "BetterDoctor helps people find and connect to the best doctors through our consumer app, doctor marketing services, and API. Our mission is to help increase transparency in healthcare and help consumers make better decisions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-betterdoctor.jpg",
+			"humanURL": "https://developer.betterdoctor.com",
+			"baseURL": "https://api.betterdoctor.com//2016-03-01",
+			"tags": "BetterDoctor",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/betterdoctor/master/_listings/betterdoctor/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "BetterDoctor",
+	"include": [
+		{
+			"name": "BetterDoctor",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/betterdoctor/master/_listings/betterdoctor/apis.yaml"
+		}
+	]
+}
